@@ -3,5 +3,7 @@ hungry=raw_input("Are you hungry?:")
 if hungry=="yes":
    print("Eat food")
 else:
-   print("Drink water")
-   print("Drink soda")
+   thirsty=("Are you thirsty?:")
+   if thirsty=="yes":
+     print("Drink water")
+     print("Drink soda")
