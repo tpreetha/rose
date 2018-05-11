@@ -1,2 +1,6 @@
 #!/usr/bin/python
-print("I am hungry")
+hungry=raw_input("Are you hungry?:")
+if hungry=="yes":
+   print("Eat food")
+else:
+   print("Drink water")
